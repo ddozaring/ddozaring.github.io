@@ -1,5 +1,6 @@
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ddozaring" # the subpath of your site, e.g. /blog
 url: "http://ddozaring.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 
 # Build settings
 markdown: kramdown
@@ -10,6 +11,12 @@ compress_html:
   clippings: all
   comments: all
   startings: [html, head, body]
+
+# author setting
+author_logo: 
+author: ddozaring
+
+
 
 # Pages Path
 defaults:
